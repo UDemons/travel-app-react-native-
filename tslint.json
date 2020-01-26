@@ -1,0 +1,28 @@
+{
+  "extends": [
+    "tslint:recommended",
+    "tslint-react"
+  ],
+  "linterOptions": {
+    "exclude": [
+      "src/serviceWorker.ts"
+    ]
+  },
+  "rules": {
+    "quotemark": [
+      true,
+      "double",
+      "avoid-escape",
+      "jsx-double"
+    ],
+    "space-before-function-paren": [true, "always"],
+    "curly": [true, "ignore-same-line"],
+    "max-classes-per-file": [true, 1],
+    "no-implicit-dependencies": false,
+    "object-literal-sort-keys": false,
+    "no-commented-out-code": false,
+    "jsx-no-multiline-js": false,
+    "interface-name": false,
+    "member-access": false
+  }
+}
